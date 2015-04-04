@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="#FFFFFF"
     >
-<TextView
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="Welcom to Pool Search PoolHome"
-    />
-</LinearLayout>
-
+    <EditText
+	    android:id="@+id/search_pool_tag"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:hint="@string/search"
+	    android:paddingLeft="10dp"
+	    android:paddingRight="10dp"
+	    android:layout_marginTop="80dp"
+	    android:layout_marginLeft="40dp"
+	    android:inputType="text" 
+	/>
+</RelativeLayout> 
