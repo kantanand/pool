@@ -2,4 +2,15 @@
 <resources>
     <string name="app_name">Pool</string>
     <string name="search"># Search</string>
+    <string name="age">Age..</string>
+    <string name="select">Choose a gender</string>
+    <string-array name="gender"> 
+    	<item> Male</item>
+    	<item> Female</item>
+    	<item> Other</item>
+    </string-array>
+    <string name="phone"> Phone No.. </string>
+    <string name="location"> Location.. </string>
+
+    <string name="send_button"> JOIN </string>
 </resources>
