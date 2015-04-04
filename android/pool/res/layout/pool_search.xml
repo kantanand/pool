@@ -4,15 +4,43 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
-    <EditText
-	    android:id="@+id/search_pool_tag"
-	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:hint="@string/search"
-	    android:paddingLeft="10dp"
-	    android:paddingRight="10dp"
-	    android:layout_marginTop="80dp"
-	    android:layout_marginLeft="40dp"
-	    android:inputType="text" 
-	/>
-</RelativeLayout> 
+    <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    	<!-- Search Box Area -->
+    	<LinearLayout 
+	    android:orientation="horizontal"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="wrap_content"
+	    >
+		    <EditText
+		    android:id="@+id/search_pool_tag"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/search"
+		    android:inputType="text"
+		    android:drawableRight="@drawable/search_icon"
+			/>
+
+			 <Button
+			 android:layout_height="wrap_content"
+			 android:layout_width="wrap_content"
+     		 android:text="@string/search"
+     		/>
+
+		</LinearLayout>
+
+		<!-- Answer Question Area -->
+		<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    >
+
+		</LinearLayout>
+
+	</LinearLayout>
+    
+</RelativeLayout>
