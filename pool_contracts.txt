@@ -1,0 +1,16 @@
+1.add_user(sex, age, unique user identifier, [ optional] phone number, [ optional] location) 
+  return unique number as user_id
+2.hash_tag_exists(pool_tag)
+  return true or false
+  return pool_tag number if exists(true)
+3.search_question(pool_tag)
+  return pool_tag,question,options[],results
+4.create_question(pool_tag,user_id,question,options[],start time,end time,result_private)
+   return pool_tag
+
+5.answer_this_question(pool_tag,option,user_id,age,sex)
+    return success or failure 
+
+6.get_answers(pool_tag)
+    return results
+
