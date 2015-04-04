@@ -28,10 +28,12 @@
 	    	          android:hint="@string/location"
 			          />
 
-		    <Button   android:layout_width="match_parent"
-		    		  android:layout_height="wrap_content"
-		    		  android:text="@string/send_button" 
-		    		  android:onClick="send_button"
+		    <Button
+		    	android:id="@+id/join_btn"   
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/send_button" 
+		        android:onClick="join_user"
 		    		  />
 	<!-- </LinearLayout> -->
 
