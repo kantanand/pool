@@ -16,7 +16,7 @@ public class PoolHome extends Activity
         new Thread() {
             public void run() {
                 try {
-                    	Intent i = new Intent(PoolHome.this,PoolSearch.class);
+                    	Intent i = new Intent(PoolHome.this,RegisterUser.class);
                         Thread.sleep(1500);
                         startActivity(i);
                         finish();
