@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:background="#FFFFFF"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     >
-    <ImageView 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/pool_logo"
-        android:gravity="center"
-        android:layout_centerInParent="true"
-        android:scaleType="center"
-        />
-</RelativeLayout> 
+		    <EditText android:id="@+id/age"
+		    	      android:layout_width="match_parent"
+		    	      android:layout_height="wrap_content"
+		    	      android:hint="@string/age"
+		    	      />
+		    	      <!-- android:layout_gravity="center"  -->
+		    
+			<Spinner  android:id="@+id/spinner"
+			          android:layout_width="match_parent"
+			          android:layout_height="wrap_content"
+			          android:entries="@array/gender"
+			          android:prompt="@string/select"/>
+
+			<EditText android:id="@+id/phone"
+				      android:layout_width="match_parent"
+				  	  android:layout_height="wrap_content"
+	    	          android:hint="@string/phone"
+			          />
+			<EditText android:id="@+id/location"
+				      android:layout_width="match_parent"
+				  	  android:layout_height="wrap_content"
+	    	          android:hint="@string/location"
+			          />
+
+		    <Button   android:layout_width="match_parent"
+		    		  android:layout_height="wrap_content"
+		    		  android:text="@string/send_button" 
+		    		  android:onClick="send_button"
+		    		  />
+	<!-- </LinearLayout> -->
+
+</LinearLayout>
