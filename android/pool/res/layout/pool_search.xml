@@ -10,11 +10,12 @@
     android:layout_height="match_parent"
     >
     	<!-- Search Box Area -->
-    	<LinearLayout 
-	    android:orientation="horizontal"
-	   	android:layout_width="match_parent"
-	   	android:layout_height="wrap_content"
-	    >
+		 
+		<LinearLayout	
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		>
 		    <EditText
 		    android:id="@+id/search_pool_tag"
 		    android:layout_width="match_parent"
