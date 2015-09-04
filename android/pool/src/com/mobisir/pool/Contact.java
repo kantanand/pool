@@ -6,11 +6,11 @@ public class Contact {
     String _name;
     String _phone_number;
 
-    //Empty Constructor 
+    //Empty Constructor
     public Contact(){
     }
 
-    // Constructor 
+    // Constructor
     public Contact(int id, String name, String _phone_number) {
         this._id = id;
         this._name = name;
@@ -18,38 +18,38 @@ public class Contact {
 
     }
 
-    // Constructor 
+    // Constructor
     public Contact(String name, String _phone_number){
         this._name = name;
         this._phone_number = _phone_number;
     }
 
-    // getting ID 
+    // getting ID
     public int getID(){
         return this._id;
     }
 
-    // setting id 
+    // setting id
     public void setID(int id){
         this._id = id;
     }
 
-    //getting name 
+    //getting name
     public String getName(){
         return this._name;
     }
 
-    // setting name 
+    // setting name
     public void setName(String name){
         this._name = name;
     }
 
-    // getting phone number 
+    // getting phone number
     public String getPhoneNumber(){
         return this._phone_number;
     }
 
-    // setting phone number 
+    // setting phone number
     public void setPhoneNumber(String phone_number) {
         this._phone_number = phone_number;
     }
